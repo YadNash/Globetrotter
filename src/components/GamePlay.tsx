@@ -14,7 +14,7 @@ import {
 import ResultFeedback from './ResultFeedback';
 import ScoreBoard from './ScoreBoard';
 import CelebrationDialog from './CelebrationDialog';
-import { ArrowRight, Clock, AlertCircle, HelpCircle } from 'lucide-react';
+import { ArrowRight, Clock, AlertCircle,  HelpCircle } from 'lucide-react';
 import { toast } from 'sonner';
 
 interface GamePlayProps {
