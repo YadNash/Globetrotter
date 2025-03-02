@@ -43,7 +43,7 @@ npm install
 npm run dev
 ```
 
-This will start the application on `http://localhost:8000/` (or the assigned port).
+This will start the application on `http://localhost:8080/` (or the assigned port).
 
 ## 🚀 Deployment
 
