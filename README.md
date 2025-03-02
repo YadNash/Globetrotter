@@ -34,13 +34,13 @@ cd globetrotter
 ### Install Dependencies
 
 ```sh
-pnpm install
+npm install
 ```
 
 ### Start the Development Server
 
 ```sh
-pnpm dev
+npm run dev
 ```
 
 This will start the application on `http://localhost:8000/` (or the assigned port).
