@@ -95,7 +95,7 @@ export default {
 					to: { opacity: '1', transform: 'scale(1)' }
 				},
 				'float': {
-					'0%, 100%': { transform: 'translateY(0)' },
+					'0%, 100%': {  transform: 'translateY(0)' },
 					'50%': { transform: 'translateY(-10px)' }
 				},
 				'confetti': {
