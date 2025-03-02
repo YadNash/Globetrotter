@@ -1,69 +1,71 @@
-# Welcome to your Lovable project
+# Globetrotter
 
-## Project info
+Globetrotter is an interactive web application where users receive cryptic clues about famous places worldwide and must guess the destination. Upon a correct guess, they unlock fun facts, trivia, and surprises about the location. This app is designed to be engaging, educational, and fun!
 
-**URL**: https://lovable.dev/projects/ab7c3864-3d37-4fad-860c-dcb5d8d48cf6
+## 🚀 Features
 
-## How can I edit this code?
+- **Cryptic Clues**: Users receive intriguing hints about world-famous locations.
+- **Instant Feedback**: Users know right away if they got the right answer.
+- **Fun Facts & Trivia**: Unlock interesting insights about each location.
+- **Sleek UI**: Designed with Tailwind CSS and shadcn-ui for a smooth user experience.
+- **Fast & Efficient**: Built using Vite and TypeScript for optimal performance.
+- **No Backend Required**: Fully client-side for a lightweight and fast experience.
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend**: React.js, TypeScript, Vite
+- **UI Components**: Tailwind CSS, shadcn-ui
+- **State Management**: React Context API (or Zustand if added)
+- **Deployment**: Vercel
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ab7c3864-3d37-4fad-860c-dcb5d8d48cf6) and start prompting.
+## 📦 Installation & Setup
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+Ensure you have **Node.js** and **pnpm** installed.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Clone the Repository
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+git clone https://github.com/your-username/globetrotter.git
+cd globetrotter
 ```
 
-**Edit a file directly in GitHub**
+### Install Dependencies
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+pnpm install
+```
 
-**Use GitHub Codespaces**
+### Start the Development Server
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```sh
+pnpm dev
+```
 
-## What technologies are used for this project?
+This will start the application on `http://localhost:8000/` (or the assigned port).
 
-This project is built with .
+## 🚀 Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Globetrotter is designed to be deployed easily on Vercel.
 
-## How can I deploy this project?
+### Steps to Deploy
 
-Simply open [Lovable](https://lovable.dev/projects/ab7c3864-3d37-4fad-860c-dcb5d8d48cf6) and click on Share -> Publish.
+1. Push your project to GitHub.
+2. Connect the repository to Vercel.
+3. Click "Deploy" and your site will be live!
 
-## I want to use a custom domain - is that possible?
+## 🎯 Future Enhancements
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- **Leaderboard**: Track top players with the best scores.
+- **Daily Challenges**: Introduce new destinations every day.
+- **Multiplayer Mode**: Compete with friends in real time.
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+💡 *Contributions are welcome! Feel free to submit a pull request or open an issue.*
+
